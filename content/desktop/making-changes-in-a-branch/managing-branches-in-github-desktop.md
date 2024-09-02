@@ -46,6 +46,11 @@ Repository administrators can also enable rulesets. Rulesets can be used to requ
 
    ![Screenshot of the "Current Branch" dropdown view. Next to the "Filter" field, a button, labeled "New Branch", is outlined in orange.](/assets/images/help/desktop/new-branch-button-mac.png)
 
+1. Find your repository menu within Github desktop
+2. Click on current branch tab
+3. Click new branch and enter desired name
+4. Begin your work within new branch
+
 {% data reusables.desktop.name-branch %}
 {% data reusables.desktop.select-base-branch %}
 {% data reusables.desktop.confirm-new-branch-button %}
