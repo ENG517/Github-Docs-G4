@@ -14,7 +14,7 @@ shortTitle: Commit & review changes
 
 {% data reusables.commits.about-commits %} You can also add a co-author on any commits you collaborate on.
 
-{% data reusables.desktop.update-email-address %} For more information, see "[AUTOTITLE](/desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop)."
+Update your email address in Github desktop to prevent your commits being associated with the wrong account. For more information, see "[AUTOTITLE](/desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop)."
 
 {% ifversion repo-rules %}
 
@@ -29,7 +29,7 @@ Repository administrators can enable rulesets for a branch to enforce specific c
    ![Screenshot of the "Current Branch" dropdown view. Under "Recent Branches", a branch, named "my-feature", is highlighted with an orange outline.](/assets/images/help/desktop/select-branch-from-dropdown.png)
 {% data reusables.desktop.make-changes %}
 
-## Choosing how to display diffs
+### Optional: Choosing how to display diffs
 
 You can change the way diffs are displayed in {% data variables.product.prodname_desktop %} to suit your reviewing needs.
 
