@@ -23,7 +23,7 @@ You can also create a branch starting from a previous commit in a branch's histo
 
 Once you're satisfied with your work, you can create a pull request to merge your changes in the current branch into another branch. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)" and "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)."
 
-You can always create a branch in {% data variables.product.prodname_desktop %} if you have read access to a repository, but you can only push the branch to {% data variables.product.prodname_dotcom %} if you have write access to the repository.
+**Note:** You can always create a branch in {% data variables.product.prodname_desktop %} if you have read access to a repository, but you can only push the branch to {% data variables.product.prodname_dotcom %} if you have write access to the repository.
 
 {% data reusables.desktop.protected-branches %}
 
@@ -84,7 +84,11 @@ You can view and make commits to any of your repository's branches. If you have 
 
 ## Deleting a branch
 
-You can't delete a branch if it's currently associated with an open pull request. You cannot undo deleting a branch.
+You can't delete a branch if it's currently associated with an open pull request. 
+
+
+
+**Warning:** You cannot undo deleting a branch.
 
 {% mac %}
 
