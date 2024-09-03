@@ -15,15 +15,15 @@ versions:
 ---
 ## About managing branches
 
-You can use branches to safely experiment with changes to your project. Branches isolate your development work from other branches in the repository. For example, you could use a branch to develop a new feature or fix a bug.
+You can use branches to safely experiment with changes to your project. Branches isolate your new work from other branches in the repository. For example, you could use a branch to work on a specific bug while someone else uses a separate branch to fix a problematic glitch without affecting each other.
 
-You always create a branch from an existing branch. Typically, you might create a branch from the default branch of your repository. You can then work on this new branch in isolation from changes that other people are making to the repository.
+You always create a branch from an existing branch. Typically, you might create a branch from the default or "main" branch of your repository. You can then work on this new branch in isolation from changes that other people are making to the repository.
 
 You can also create a branch starting from a previous commit in a branch's history. This can be helpful if you need to return to an earlier view of the repository to investigate a bug, or to create a hot fix on top of your latest release.
 
 Once you're satisfied with your work, you can create a pull request to merge your changes in the current branch into another branch. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)" and "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)."
 
-You can always create a branch in {% data variables.product.prodname_desktop %} if you have read access to a repository, but you can only push the branch to {% data variables.product.prodname_dotcom %} if you have write access to the repository.
+**Note:** You can always create a branch in {% data variables.product.prodname_desktop %} if you have read access to a repository, but you can only push the branch to {% data variables.product.prodname_dotcom %} if you have write access to the repository.
 
 {% data reusables.desktop.protected-branches %}
 
@@ -46,6 +46,11 @@ Repository administrators can also enable rulesets. Rulesets can be used to requ
 
    ![Screenshot of the "Current Branch" dropdown view. Next to the "Filter" field, a button, labeled "New Branch", is outlined in orange.](/assets/images/help/desktop/new-branch-button-mac.png)
 
+1. Find your repository menu within Github desktop
+2. Click on current branch tab
+3. Click new branch and enter desired name
+4. Begin your work within new branch
+
 {% data reusables.desktop.name-branch %}
 {% data reusables.desktop.select-base-branch %}
 {% data reusables.desktop.confirm-new-branch-button %}
@@ -62,7 +67,7 @@ Repository administrators can also enable rulesets. Rulesets can be used to requ
 
 ## Publishing a branch
 
-If you create a branch on {% data variables.product.product_name %}, you'll need to publish the branch to make it available for collaboration on {% data variables.product.prodname_dotcom %}.
+If you create a branch on {% data variables.product.product_name %}, you'll need to publish the branch to make it visible to other collaborators to view your current and future changes. {% data variables.product.prodname_dotcom %}.
 
 1. In the repository bar, click {% octicon "git-branch" aria-hidden="true" %} **Current Branch**, then click the branch that you want to publish.
    ![Screenshot of the "Current Branch" dropdown view. Under "Recent Branches", a branch, named "my-feature", is highlighted with an orange outline.](/assets/images/help/desktop/select-branch-from-dropdown.png)
@@ -84,7 +89,11 @@ You can view and make commits to any of your repository's branches. If you have 
 
 ## Deleting a branch
 
-You can't delete a branch if it's currently associated with an open pull request. You cannot undo deleting a branch.
+You can't delete a branch if it's currently associated with an open pull request. 
+
+
+
+**Warning:** You cannot undo deleting a branch.
 
 {% mac %}
 
