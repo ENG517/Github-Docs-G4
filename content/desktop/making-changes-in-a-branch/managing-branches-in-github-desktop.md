@@ -15,7 +15,7 @@ versions:
 ---
 ## About managing branches
 
-You can use branches to safely experiment with changes to your project. Branches isolate your new work from other branches in the repository. For example, you could use a branch to work on a specific bug while someone else uses a seperate branch to fix a problematic glitch without affecting each other.
+You can use branches to safely experiment with changes to your project. Branches isolate your new work from other branches in the repository. For example, you could use a branch to work on a specific bug while someone else uses a separate branch to fix a problematic glitch without affecting each other.
 
 You always create a branch from an existing branch. Typically, you might create a branch from the default or "main" branch of your repository. You can then work on this new branch in isolation from changes that other people are making to the repository.
 
